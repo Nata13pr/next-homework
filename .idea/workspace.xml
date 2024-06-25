@@ -33,8 +33,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/WebstormProjects/next-homework/src/app",
+    "last_opened_file_path": "C:/Users/user/WebstormProjects/next-homework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719317112705</updated>
       <workItem from="1719317113485" duration="3378000" />
-      <workItem from="1719322704309" duration="3887000" />
+      <workItem from="1719322704309" duration="4656000" />
     </task>
     <task id="LOCAL-00001" summary="feat:basic route">
       <option name="closed" value="true" />
