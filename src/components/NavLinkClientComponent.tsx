@@ -9,8 +9,9 @@ type IProps={
     children:React.ReactNode
 }
 const NavLinkClientComponent:FC<IProps> = ({path,children}) => {
+
    let pathname=usePathname()
-pathname===path
+
     return (
         <div>
             <Link href={path} className={pathname===path ? 'active' : ''}>{children}</Link>
