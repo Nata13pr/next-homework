@@ -1,19 +1,18 @@
 import React from 'react';
 import Link from "next/link";
-import NavLinkClientComponent from './NavLinkClientComponent';
 
 const MenuComponent = () => {
     return (
         <div>
             <ul>
                 <li>
-                    <Link href={'/'}>Home</Link>
+                    <Link href={'/'}>home</Link>
                 </li>
                 <li>
-                    <Link href={'/comments'}>Comments</Link>
+                    <Link href={'/users'}>users</Link>
                 </li>
                 <li>
-                    <NavLinkClientComponent path={'/users'}>users</NavLinkClientComponent>
+                    <Link href={'/posts'}>posts</Link>
                 </li>
             </ul>
         </div>
