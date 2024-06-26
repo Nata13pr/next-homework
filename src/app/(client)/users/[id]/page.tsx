@@ -1,4 +1,6 @@
-import React,{FC} from "react";
+import React, {FC} from "react";
+
+import {IUser} from "@/types";
 
 interface IProps {
     params: {

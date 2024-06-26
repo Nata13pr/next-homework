@@ -1,23 +1,23 @@
 import {Metadata} from "next";
 import React from "react";
 
-import {IUser} from "@/types";
+import {IPost} from "@/types";
 
 export const generateMetadata = async ({params}: { params: { id: string } }): Promise<Metadata> => {
-    let user: IUser = await fetch('https://jsonplaceholder.typicode.com/users' + params.id)
+    let post: IPost = await fetch('https://jsonplaceholder.typicode.com/posts' + params.id)
         .then(value => value.json())
 
-    console.log(user)
+    console.log(post)
 
     return {
-        title: user.email,
-        description: user.email
+        title: post.title,
+        description: post.title
     }
 }
 
 type Props = { children: React.ReactNode }
 
-const UserLayout = ({children}: Props) => {
+const PostLayout = ({children}: Props) => {
     return (
         <div>
             {children}
@@ -25,4 +25,4 @@ const UserLayout = ({children}: Props) => {
     )
 }
 
-export default UserLayout;
+export default PostLayout;

@@ -1,11 +1,12 @@
 import React, {FC} from 'react';
 import Link from "next/link";
 
+import {IUser} from "@/types";
+
 const UsersComponent: FC = async () => {
     let users = await fetch('https://jsonplaceholder.typicode.com/users')
         .then(value => value.json())
 
-    console.log(users)
 
     return (
         <div>
