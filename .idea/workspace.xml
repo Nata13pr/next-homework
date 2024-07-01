@@ -5,27 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77fe01bf-2722-4f92-a2b8-9b135915e9e8" name="Changes" comment="feat:basic route">
-      <change afterPath="$PROJECT_DIR$/src/app/(client)/users/[id]/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(client)/users/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(client)/users/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(client)/users/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu-component/MenuComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/users-component/UsersComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initdb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(meals)/meals/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(meals)/meals/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/db/db.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(users)/users/[id]/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(users)/users/[id]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(users)/users/details/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(users)/users/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(users)/users/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/comments/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/types.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuComponent.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavLinkClientComponent.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserComponent.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/urls.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/api.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-component/MenuComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-component/MenuComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users-component/UsersComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users-component/UsersComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +25,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -55,7 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lesson1",
+    "git-widget-placeholder": "lesson2",
     "last_opened_file_path": "C:/Users/user/WebstormProjects/next-homework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,6 +59,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "application.passwordSafe",
     "ts.external.directory.path": "C:\\Users\\user\\WebstormProjects\\next-homework\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -76,6 +74,23 @@
       <recent name="C:\Users\user\WebstormProjects\next-homework\src\app\(users)" />
       <recent name="C:\Users\user\WebstormProjects\next-homework\src\app\{users}" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
