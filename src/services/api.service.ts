@@ -2,7 +2,11 @@ import {urlBuilder} from "@/constants/urls";
 
 const userService = {
     getAllUsers: async (): Promise<IUser[]> => {
-        let users = await fetch(urlBuilder.allUsers())
+        let users = await fetch(urlBuilder.allUsers(), {
+            //  cache: "no-store",//SSR
+            // cache:'force-cache'//SSG
+            next: {revalidate: 60}//ISR
+        })
             .then(value => value.json());
         console.log(users);
         return users;
